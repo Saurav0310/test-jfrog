@@ -11,7 +11,7 @@ jobs:
         uses: jfrog/setup-jfrog-cli@v4
         env:
           # JFrog platform url (for example: https://acme.jfrog.io)
-          JF_URL: https:///artifactory/api/gradle/new-gradle-gradle-dev
+          JF_URL: https://trialsbaxgl.jfrog.io/artifactory/new-gradle-gradle-maven-remote/
 
           # JFrog Platform access token
           # JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
